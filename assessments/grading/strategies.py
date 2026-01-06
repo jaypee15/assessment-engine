@@ -15,7 +15,7 @@ class GradingStrategy(ABC):
 
 class MockGradingStrategy(GradingStrategy):
     """
-    Implements a simple grading algorithm as requested (Bonus Points).
+    Implements a simple grading algorithm.
     Uses basic keyword matching / cosine similarity simulation for text answers.
     """
     def grade_submission(self, submission: Submission) -> float:
